@@ -20,6 +20,8 @@ public class TangShiAnalyzeApplication {
 
         WebController webController = ObjectFactory.getInstance().getObject(WebController.class);
 
+
+        //rrrrrrrrrrrrrrrrr
         //运行了web服务，提供了接口
         LOGGER.info("Web Server launch...");
         webController.launch();
